@@ -5,7 +5,6 @@ import Divider from '../../common/divider'
 
 const PrevStateExample = () => {
     const prevState = useRef("")
-    console.log(prevState)
     const [otherState, setOtherState] = useState("false")
     useEffect(() => {
         prevState.current = otherState
